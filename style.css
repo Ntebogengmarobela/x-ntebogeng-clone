@@ -21,6 +21,7 @@ nav {
     position: relative;
 }
 
+/* nav-items*/
 .home-menu {
     align-items: flex-start;
     display: flex;
@@ -254,6 +255,7 @@ nav {
     width: 26.25px;
     tab-size: 4; 
 }
+/* nav-item */
 .grok-icon svg {
     fill: rgb(231, 233, 234);
     height: 26.25px;
@@ -297,6 +299,7 @@ nav {
     height: 26.25px;
     width: 26.25px;
 }
+/* nav-item */
 .bookmarks-title {
     display: block;
     direction: ltr;
@@ -544,17 +547,6 @@ nav {
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
 }
-button {
-    display: flex; 
-    margin: 0;
-    padding: 0; 
-    border: none;
-    background: none;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
 .home-post-button {
     align-items: stretch;
     display: flex;
@@ -591,6 +583,7 @@ button {
     padding: 0px 32px;
     text-align: center;
 }
+
 .home-profile-home-button-area{
     align-items: stretch;
     display: flex;
@@ -667,4 +660,28 @@ button {
     border-bottom-left-radius: 9999px;
     border-bottom-right-radius: 9999px;
 }  
+
+
+button {
+    display: flex; 
+    margin: 0;
+    padding: 0; 
+    border: none;
+    background: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.home-post-button {
+    align-items: stretch;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    height: 52px;
+    line-height: 22.5px;
+    width: 233.1px;
+    margin: 4px 0px;
+    tab-size: 4;
+}
 
