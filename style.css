@@ -12,7 +12,7 @@ body {
 }
 @media screen and (max-width:375.2px) {
     body {
-        
+        overflow-y: hidden;
     }
     
 }
@@ -174,8 +174,11 @@ nav {
         height: 428px;
         line-height: 24px;
         width: 375.2px;
-        padding: 0 16px;
+        /* padding: 0 4px; */
+        /* padding: 0 16px; */
         border-bottom: 1px solid rgb(47, 51, 54);
+        justify-content: center;
+
       
     }
     .post-tweet .timeline-tweet-area .dp-area {
@@ -547,7 +550,7 @@ button {
     background-color: rgba(0, 0, 0, 0.65);
     /* background-color: rgba(0, 0, 0, 0.3); */
     backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgb(47, 51, 54);
+    border: 1px solid rgb(47, 51, 54);
     z-index: 999;
     
     }
@@ -896,8 +899,8 @@ button {
     cursor: pointer; 
     border-bottom: 1px solid rgb(47, 51, 54);
     position: relative;
-    
 }
+
 
 .article-area{
     align-items: stretch;
@@ -1458,8 +1461,8 @@ button {
         width: 42.25px;
         padding: 8px;
         margin: -8px;
-        align-items: center;
-        justify-content: center;
+        /* align-items: center;
+        justify-content: center; */
     }
     .mobile-nav-home .home-icon:hover {
         border-radius: 25px;
@@ -1475,7 +1478,7 @@ button {
         width: 42.25px;
         padding: 8px;
         margin: -8px;
-        justify-content: center;
+        /* justify-content: center; */
     }
     .mobile-nav-home .explore-icon:hover {
         border-radius: 9999px;
@@ -1491,7 +1494,7 @@ button {
         width: 42.25px;
         padding: 8px;
         margin: -8px;
-        justify-content: center;
+        /* justify-content: center; */
     }
     .mobile-nav-home .grok-icon:hover {
         border-radius: 9999px;
@@ -1514,7 +1517,7 @@ button {
         margin-left: -8px;
         margin-right: -8px;
         margin-bottom: -8px; */
-        justify-content: center;
+        /* justify-content: center; */
     }
     .mobile-nav-home .notifications-icon:hover {
         border-radius: 9999px;
@@ -1532,7 +1535,7 @@ button {
         width: 42.25px;
         padding: 8px;
         margin: -8px;
-        justify-content: center;
+        /* justify-content: center; */
     }
     .mobile-nav-home .messages-icon:hover {
         border-radius: 9999px;
@@ -1549,7 +1552,7 @@ button {
         width: 42.25px;
         padding: 8px;
         margin: -8px;
-        justify-content: center;
+        /* justify-content: center; */
     }
     .mobile-nav-home .communities-icon:hover {
        border-radius: 9999px;
