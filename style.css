@@ -626,7 +626,7 @@ button {
         line-height: 24px;
         width: 375.2px;
         position: relative;
-        border-bottom: none;
+        border-bottom: 1px solid rgb(47, 51, 54);
         background-color: rgba(0, 0, 0, 0.65);
        
         /* background-color: rgba(0, 0, 0, 0.3); */
@@ -667,6 +667,7 @@ button {
         font-weight: 700;
     }
     .mobile-nav .suggestion-section .following:hover {
+        height: 52px;
         background-color:rgba(128, 128, 128, 0.25); 
     }
 }
@@ -1425,7 +1426,7 @@ button {
 }
 
 .mobile-nav-home {
-    align-items: stretch;
+    align-items: center;
     display: none;
     flex-direction: row;
     flex-basis: auto;
@@ -1439,11 +1440,22 @@ button {
     padding: 0 16px;
 }
 .mobile-nav-home svg {
+    height:26.25px;
+    width: 26.25;
     fill:rgb(255, 255, 255);
 }
+.mobile-nav-home-icon {
+    display: flex;
+    height:42.25px;
+    width: 42.25px;
+    padding: 8px;
+    margin: -8px;
+    line-height: 22.5px;
+}
+
 @media screen and (max-width: 375.2px) {
     .mobile-nav-home {
-        /* align-items: center; */
+        align-items: center;
         display: flex;
         flex-direction: row;
         flex-basis: auto;
@@ -1453,7 +1465,7 @@ button {
         background-color: rgba(0, 0, 0, 0.3);
     }
     .mobile-nav-home .home-icon {
-        align-items: stretch;
+        align-items: center;
         display: flex;
         flex-direction: column;
         height: 42.25px;
