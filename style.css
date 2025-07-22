@@ -1433,7 +1433,7 @@ button {
     height: 52.5px;
     line-height: 22.5px;
     width: 375.2px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: fixed;
     bottom: 0;
     border-top: 0.8px solid rgb(47, 51, 54);
@@ -1464,7 +1464,7 @@ button {
         backdrop-filter:rgb(0, 0, 0, 0);
         background-color: rgba(0, 0, 0, 0.3);
     }
-    .mobile-nav-home .home-icon {
+    .mobile-nav-home .mobile-nav-home-icon {
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -1475,99 +1475,9 @@ button {
         /* align-items: center;
         justify-content: center; */
     }
-    .mobile-nav-home .home-icon:hover {
-        border-radius: 25px;
-        background-color:rgba(128, 128, 128, 0.25);
-    }
-    .mobile-nav-home .explore-icon {
-        align-items:center;
-        display: flex;
-        flex-direction: column;
-        display: flex;
-        flex-direction: column;
-        height: 42.25px;
-        width: 42.25px;
-        padding: 8px;
-        margin: -8px;
-        /* justify-content: center; */
-    }
-    .mobile-nav-home .explore-icon:hover {
+    .mobile-nav-home .mobile-nav-home-icon:hover {
         border-radius: 9999px;
         background-color:rgba(128, 128, 128, 0.25);
-    }
-    .mobile-nav-home .grok-icon {
-        align-items:center;
-        display: flex;
-        flex-direction: column;
-        display: flex;
-        flex-direction: column;
-        height: 42.25px;
-        width: 42.25px;
-        padding: 8px;
-        margin: -8px;
-        /* justify-content: center; */
-    }
-    .mobile-nav-home .grok-icon:hover {
-        border-radius: 9999px;
-        background-color:rgba(128, 128, 128, 0.25);
-    }
-    .mobile-nav-home .notifications-icon {
-        align-items:center;
-        display: flex;
-        flex-direction: column;
-        display: flex;
-        flex-direction: column;
-        height: 42.25px;
-        width: 42.25px;
-        padding: 8px;
-        margin: -8px;
-        /* height: 52.5px;
-        width:62.5312px ;
-        padding: 8px;
-        margin-top: -6px;
-        margin-left: -8px;
-        margin-right: -8px;
-        margin-bottom: -8px; */
-        /* justify-content: center; */
-    }
-    .mobile-nav-home .notifications-icon:hover {
-        border-radius: 9999px;
-        background-color:rgba(128, 128, 128, 0.25);
-       
-    }
-
-    .mobile-nav-home .messages-icon {
-        align-items:center;
-        display: flex;
-        flex-direction: column;
-        display: flex;
-        flex-direction: column;
-        height: 42.25px;
-        width: 42.25px;
-        padding: 8px;
-        margin: -8px;
-        /* justify-content: center; */
-    }
-    .mobile-nav-home .messages-icon:hover {
-        border-radius: 9999px;
-        background-color:rgba(128, 128, 128, 0.25); 
-    }
-    
-    .mobile-nav-home .communities-icon {
-        align-items:center;
-        display: flex;
-        flex-direction: column;
-        display: flex;
-        flex-direction: column;
-        height: 42.25px;
-        width: 42.25px;
-        padding: 8px;
-        margin: -8px;
-        /* justify-content: center; */
-    }
-    .mobile-nav-home .communities-icon:hover {
-       border-radius: 9999px;
-       background-color:rgba(128, 128, 128, 0.25);   
     }
 }
 
