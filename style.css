@@ -174,8 +174,7 @@ nav {
         height: 428px;
         line-height: 24px;
         width: 375.2px;
-        /* padding: 0 4px; */
-        /* padding: 0 16px; */
+        padding: 0 16px;
         border-bottom: 1px solid rgb(47, 51, 54);
         justify-content: center;
 
