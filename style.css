@@ -1455,8 +1455,8 @@ button {
     width:62.5312px; */
     height:42.25px;
     width: 42.25px;
-    padding: 8px;
-    margin: -8px;
+    /* padding: 8px;
+    margin: -8px; */
     line-height: 22.5px;
 }
 
@@ -1480,8 +1480,8 @@ button {
        
         height: 42.25px;
         width: 42.25px; 
-        padding: 8px;
-        margin: -8px;
+        /* padding: 8px;
+        margin: -8px; */
         /* align-items: center;
         justify-content: center; */
     }
