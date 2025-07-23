@@ -957,7 +957,7 @@ button {
         display: inline-block;
         height: 20px;
         line-height: 20px;
-        /* width: 107px; */
+        width: 120px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
