@@ -546,7 +546,9 @@ button {
     width: 375.2px;
     justify-content: center;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0);
+
+    /* background-color: rgba(0, 0, 0, 0.65); */
     /* background-color: rgba(0, 0, 0, 0.3); */
     backdrop-filter: blur(12px);
     border: 1px solid rgb(47, 51, 54);
@@ -627,9 +629,8 @@ button {
         width: 375.2px;
         position: relative;
         border-bottom: 1px solid rgb(47, 51, 54);
-        background-color: rgba(0, 0, 0, 0.65);
-       
-        /* background-color: rgba(0, 0, 0, 0.3); */
+        background-color: rgba(0, 0, 0, 0);
+    
         
     }
     .mobile-nav .suggestion-section .for-you {
@@ -1426,26 +1427,32 @@ button {
 }
 
 .mobile-nav-home {
-    align-items: center;
+   
     display: none;
     flex-direction: row;
     flex-basis: auto;
     height: 52.5px;
     line-height: 22.5px;
     width: 375.2px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: fixed;
     bottom: 0;
     border-top: 0.8px solid rgb(47, 51, 54);
-    /* padding: 0 16px; */
+    padding: 0 16px;
 }
 .mobile-nav-home svg {
     height:26.25px;
     width: 26.25;
     fill:rgb(255, 255, 255);
 }
+
+
 .mobile-nav-home-icon {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height:52.5px;
+    width:62.5312px; */
     height:42.25px;
     width: 42.25px;
     padding: 8px;
@@ -1463,13 +1470,16 @@ button {
         line-height: 22.5px; 
         backdrop-filter:rgb(0, 0, 0, 0);
         background-color: rgba(0, 0, 0, 0.3);
+        padding-top: 52.;
     }
     .mobile-nav-home .mobile-nav-home-icon {
         align-items: center;
+        justify-content: center;
         display: flex;
         flex-direction: column;
+       
         height: 42.25px;
-        width: 42.25px;
+        width: 42.25px; 
         padding: 8px;
         margin: -8px;
         /* align-items: center;
